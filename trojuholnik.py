@@ -25,9 +25,9 @@ if a + b > c and a + c > b and b + c > a:
             p_vpis=S/po
             p_opis=(a*b*c)/(4*S)
             #vypocet uhlov
-           uhol_a = round(math.degrees(math.acos((b**2 + c**2 - a**2)/(2*b*c))),2)
-           uhol_b = round(math.degrees(math.acos((a**2 + c**2 - b**2)/(2*a*c))),2)
-           uhol_c = round(math.degrees(math.acos((a**2 + b**2 - c**2)/(2*a*b))),2)
+            uhol_a = round(math.degrees(math.acos((b**2 + c**2 - a**2)/(2*b*c))),2)
+            uhol_b = round(math.degrees(math.acos((a**2 + c**2 - b**2)/(2*a*c))),2)
+            uhol_c = round(math.degrees(math.acos((a**2 + b**2 - c**2)/(2*a*b))),2)
 print ("Obvod je:", o)
 print ("Obsah je:", S)
 print ("Výška a:", va)
