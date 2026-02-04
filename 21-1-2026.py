@@ -33,3 +33,4 @@ if __name__ == "__main__":
     day_name = get_day_name(h)
 
     print(f"{day}.{month}.{year} je: {day_name}")
+
